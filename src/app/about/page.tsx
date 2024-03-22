@@ -6,6 +6,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <section>
+        
       {/* PART 1 */}
 
     <div className="overflow-hidden flex w-full bg-repeat-y relative h-screen self-center justify-between  min-h-screen bg-primary ">
@@ -26,40 +27,36 @@ export default function Home() {
 {/* ======================================================= */}
 
     {/* PART 2 */}
-
-    {/* SLIDE 1 */}
+     {/* SLIDE 1 */}
     <div className="overflow-hidden flex w-90 bg-repeat-y relative h-auto self-center justify-between  bg-secondary ">
       <div className="flex text-start flex-col text-[50px] md:text-7xl font-figtree text-black mt-5">
         <h1 className="pl-[10%] sm:pl-[10%] mb-7 flex flex-wrap" data-aos="fade-up">NEWS</h1>
         
         <div className="carousel w-full">
           <div id="slide1" className="carousel-item relative w-full flex flex-col gap-10 item-center justify-center"data-aos="fade-up">
-           
+            
 
             <Link href="#nct127" className=" text-4xl text-black px-[10%] md:text-[16px] lg:text-[30px] sm:text-2xl transform"
                   >NCT 127 Hangul 엔시티 127 RR ensiti il-i-chil
                   is the second sub-unit of the South Korean male vocal group NCT formed by SM Entertainment. </Link>
 
             <p className="text-base text-black px-[10%] mb-10">
-            They originally debuted on July 7, 2016, with their debut extended play NCT 127, with an original lineup of seven members: Taeil, Taeyong, Yuta, Jaehyun, Winwin, Mark, and Haechan. Doyoung and Johnny joined the unit in December 2016, ahead of their second EP Limitless, while Jungwoo, the final member, was introduced in September 2018 ahead of their first studio album Regular-Irregular. </p> 
+            They originally debuted on July 7, 2016, with their debut extended play NCT 127, with an original lineup of seven members: Taeil, Taeyong, Yuta, Jaehyun, Winwin, Mark, and Haechan. Doyoung and Johnny joined the unit in December 2016, ahead of their second EP Limitless, while Jungwoo, the final member, was introduced in September 2018 ahead of their first studio album Regular-Irregular.</p> 
 
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-              <a href="#slide4" className="btn btn-circle opacity-60">❮</a> 
+              <a href="#slide4" className="btn btn-circle opacity-60 ">❮</a> 
               <a href="#slide2" className="btn btn-circle opacity-60">❯</a>
             {/* </div> */}
           </div>
           </div>
 
-            {/* SLIDE 2 */}
-          <div id="slide2" className="carousel-item relative w-full flex flex-col gap-10 item-center justify-center " data-aos="fade-up">
-           
-            <a href="#nct127" className=" text-4xl text-black md:px-[10%] sm:text-2xl md:text-[16px] lg:text-[30px] transform"
+           {/* SLIDE 2 */}
+          <div id="slide2" className="carousel-item relative w-full flex flex-col gap-10 item-center justify-center" data-aos="fade-up">
+            <a href="#nct127" className=" text-4xl text-black md:px-[10%] sm:text-2xl md:text-[16px] lg:text-[30px]  transform"
                   >NCT Dream Hangul 엔시티 드림 RR Ensiti Deurim is the third sub-unit of the South Korean boy band NCT, consisting exclusively of teenagers in their teens. </a>
-
             <p className="text-base text-black px-[10%] mb-10">
             Originally, the sub-unit had a graduation system where members who passed the age of 20 would drop out, but in 2020, this system was replaced and made NCT Dream a permanent unit of NCT. The unit made its debut on August 25, 2016 with the song Chewing Gum and seven members: Mark, Renjun, Jeno, Haechan, Jaemin, Chenle and Jisung. </p> 
-
-
+            
             <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
               <a href="#slide1" className="btn btn-circle opacity-60">❮</a> 
               <a href="#slide3" className="btn btn-circle opacity-60">❯</a>
@@ -72,18 +69,18 @@ export default function Home() {
 
     {/* PART 3 */}
 
-    <div id="about" className="overflow-hidden flex w-full bg-repeat-y relative self-center justify-between  bg-third ">
+    <div className="overflow-hidden flex w-full bg-repeat-y relative self-center justify-between  bg-third ">
 
       <div  className="flex pl-[10%] sm:pl-[10%] flex-col text-start md:text-7xl font-figtree text-black mt-5 ">
         <h1 id="#about" className=" flex flex-wrap sm:pl[10%] mb-7 " data-aos="fade-up">ABOUT</h1>
 
-          <p className="text-base text-black mt-7 "data-aos="fade-up">Established in 1995, SM Entertainment has been a trailblazer in the world of entertainment, reshaping the very essence of K-POP and revolutionizing the industry as a whole. We take immense pride in pioneering the comprehensive artist development system, covering casting, training, production, and management, setting the stage for what K-POP is today.Our journey commenced with the ignition of the `&quot;`Korean Wave`&quot;`, propelling K-POP onto the global stage. With our unwavering commitment to excellence, we continue to set pivotal milestone in the entertainment realm, propelling ourselves beyond Asia to emerge as a top global entertainment company.</p>
+          <p className="text-base text-black mt-7 "data-aos="fade-up">Established in 1995, SM Entertainment has been a trailblazer in the world of entertainment, reshaping the very essence of K-POP and revolutionizing the industry as a whole. We take immense pride in pioneering the comprehensive artist development system, covering casting, training, production, and management, setting the stage for what K-POP is today.Our journey commenced with the ignition of the &quot;`Korean Wave&quot;`, propelling K-POP onto the global stage. With our unwavering commitment to excellence, we continue to set pivotal milestone in the entertainment realm, propelling ourselves beyond Asia to emerge as a top global entertainment company.</p>
     
             {/* {/* TEAMS !! */}
           <div className=" flex items-center justify-end right-4 ">
             <button className="group rounded-md gap-2 mr-5 mb-6 text-xl hover:bg-gray-500 flex ">
               TEAMS <FaArrowRightLong  size={25}/></button>
-          </div> 
+          </div>
 
       </div>
     </div>
@@ -91,12 +88,11 @@ export default function Home() {
       {/* <div className="absolute mt-60 inset-0 bg-yellow-500"></div> */}
 
       {/* ================================================ */}
-    <Introduction/>
-      {/* {/* ============================================ */}
-
-      
-{/* PART 4 */}
-      <footer className="flex justify-between footer p-10 bg-[#09162b] text-base-content">
+      <Introduction/>
+      {/* ========================================== */}
+    
+    {/* PART 4 */}
+      <footer className="flex  justify-between footer p-10 z-40 text-base-content bg-[#09162b]">
   <aside>
         <div className="justify-between
          bottom-0 left-[40rem] hidden md:flex
@@ -162,7 +158,7 @@ export default function Home() {
       </div>  
     </div>
    
-  
+   
     </section>
 
    
