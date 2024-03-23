@@ -1,17 +1,13 @@
 import Service from "@/components/service";
 import Image from "next/image";
-import { FaArrowRightLong } from "react-icons/fa6";
-import Link from "next/link";
-
 
 export default function ServicePage() {
    
     return (
 
         <section>
-
                 
-                <div className="flex overflow-hidden flex-col lg:flex-row justify-between items-center p-16 bg-[#dbc397]">
+                <div className="flex relative overflow-hidden flex-col lg:flex-row justify-between items-center p-16 bg-[#dbc397]">
                     <div className="text-black font-figtree" data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom">
                         <h1 className="flex-wrap md:text-left justify-center pr-[150px] lg:flex-row text-[50px] md:text-7xl mt-[40px] px-[10%]" >
@@ -24,11 +20,7 @@ export default function ServicePage() {
                         <Image className="flex lg:w-[20rem] shadow-lg rounded-lg bg-white" src="/light_all.jpg" alt="naevis" width={600} height={600} data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"></Image>
                     </div>
-                    <div className="  flex items-center justify-end right-4 ">
-                    <button className="group rounded-md gap-2 mr-5 mb-6 text-xl text-black hover:bg-gray-500 flex" >
-                    TESTIMONY <FaArrowRightLong  size={25}/></button>
-                    <Link href="/#artist"></Link>
-                </div>
+                   
                 </div>
             {/* =====================  N C T  ========================*/}
 

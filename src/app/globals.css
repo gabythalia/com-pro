@@ -16,11 +16,11 @@ html {
 }
 
 .hamburger-line {
-  @apply w-[30px] h-[2px] my-2 block bg-white;
+  @apply w-[30px] h-[2px] my-2 block;
 };
 
 .hamburger-line1 {
-  @apply w-[30px] h-[2px] my-2 block bg-black;
+  @apply w-[30px] h-[2px] my-2 block;
 }
 
 .hamburger-active > span:nth-child(1) {
