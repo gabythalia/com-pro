@@ -89,7 +89,7 @@ export default function Navbar () {
                         <Link href="/" className="text-base py-1 mx-1 flex group-hover:text-white">HOME</Link>
                     </li>
                     <li>
-                        <Link href="#about" className="text-base  text-dark py-1 mx-1 flex group-hover:text-white">ABOUT</Link>
+                        <Link href="/#about" className="text-base  text-dark py-1 mx-1 flex group-hover:text-white">ABOUT</Link>
                     </li>
                     <li>
                         <Link href="/servicePage" className="text-base text-dark py-1 mx-1 flex group-hover:text-white">PRODUCT</Link>
