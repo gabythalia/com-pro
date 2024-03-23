@@ -43,9 +43,9 @@ export default function Navbar () {
 
         {/* logo servicePage */}
         
-        <Image className={` flex text-white ${ pathname === '/servicePage' ? '' : 'hidden'  } `} src='/sm_logo.png' alt="logo" width={81} height={56}/>
+        <Image className={` flex text-white ${ pathname === '/servicePage' ? '' : 'hidden' } `} src='/sm_logo.png' alt="logo" width={81} height={56}/>
         {/* logo home */}
-        <Image className={` flex text-white ${ pathname === '/' ? '' : 'hidden'  } `} src='/sm_logo2.png' alt="logo" width={81} height={56}/>
+        <Image className={` flex text-white ${ pathname === '/'  || pathname === '/teams' ? '' : 'hidden'  } `} src='/sm_logo2.png' alt="logo" width={81} height={56}/>
 
             {/*  HAMBURGER MENU !!*/}
             
@@ -56,7 +56,7 @@ export default function Navbar () {
                 <span className={`hamburger-line duration-200 ${pathname === '/servicePage' ? ' bg-black' : 'bg-white'} `}></span> 
             </button>
 
-            <div  className={`max-lg:hidden 
+            <div  className={`max-lg:hidden
                 
             `}>
                 {/* menu home  buat desktop katanya wkwk */}
