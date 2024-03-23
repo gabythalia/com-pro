@@ -37,10 +37,15 @@ export default function Navbar () {
             
         `}>
             {/* LOGO */}
-            <div className={`${pathname === '/' ? 'flex justify-start py-5 px-2 w-fit items-center' : ""}`}>
-                <Image className="flex text-white" src={pathname === '/servicePage' ? '/sm_logo.png ' : '/sm_logo2.png' } alt="logo" width={81} height={56}/>
-                
-            </div>
+            {/* <div className='flex justify-start py-5 px-2 w-fit items-center'>
+                <Image className="flex text-white" src={pathname === '/servicePage' ? '/sm_logo.png' : '/sm_logo2.png' } alt="logo" width={81} height={56}/>  
+            </div> */}
+
+        {/* logo servicePage */}
+        
+        <Image className={` flex text-white ${ pathname === '/servicePage' ? '' : 'hidden'  } `} src='/sm_logo.png' alt="logo" width={81} height={56}/>
+        {/* logo home */}
+        <Image className={` flex text-white ${ pathname === '/' ? '' : 'hidden'  } `} src='/sm_logo2.png' alt="logo" width={81} height={56}/>
 
             {/*  HAMBURGER MENU !!*/}
             
@@ -60,7 +65,7 @@ export default function Navbar () {
                         <Link href="/" className="text-base py-1 mx-1 flex group-hover:text-white">HOME</Link>
                     </li>
                     <li className="group">
-                        <Link href="#about" className="text-base  text-dark py-1 mx-1 flex group-hover:text-white">ABOUT</Link>
+                        <Link href="/#about" className="text-base  text-dark py-1 mx-1 flex group-hover:text-white">ABOUT</Link>
                     </li>
                     <li className="group">
                         <Link href="/servicePage" className="text-base text-dark py-1 mx-1 flex group-hover:text-white">PRODUCT</Link>
