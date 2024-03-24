@@ -20,7 +20,7 @@ export default async function Team() {
                     <div className="text-black font-figtree" data-aos="fade-up" 
             data-aos-anchor-placement="bottom-bottom">
                         <h1 className="flex-wrap md:text-left justify-center pr-[150px] lg:flex-row text-[50px] md:text-7xl mt-[40px] px-[10%]" >
-                        Meet the Team !
+                        Our Teams
                         </h1>
                         <p className="flex px-[10%] text-black "> This is the team that has been working with our company<br/> </p>  
                     </div>    

@@ -75,15 +75,9 @@ export default function Home() {
       <div  className="flex pl-[10%] sm:pl-[10%] flex-col text-start md:text-7xl font-figtree text-black mt-5 ">
         <h1 id="#about" className=" flex flex-wrap sm:pl[10%] mb-7 " data-aos="fade-up">ABOUT</h1>
 
-          <p className="text-base text-black mt-7 "data-aos="fade-up">Established in 1995, SM Entertainment has been a trailblazer in the world of entertainment, reshaping the very essence of K-POP and revolutionizing the industry as a whole. We take immense pride in pioneering the comprehensive artist development system, covering casting, training, production, and management, setting the stage for what K-POP is today.Our journey commenced with the ignition of the `&quot;`Korean Wave`&quot;`, propelling K-POP onto the global stage. With our unwavering commitment to excellence, we continue to set pivotal milestone in the entertainment realm, propelling ourselves beyond Asia to emerge as a top global entertainment company.</p>
-    
-            {/* {/* TEAMS !! */}
-          <div className=" flex items-center justify-end right-4 ">
-            <button className="group rounded-md gap-2 mr-5 mb-6 text-xl hover:bg-gray-500 flex ">
-              TEAMS <FaArrowRightLong  size={25}/>
-            </button>
-          </div> 
-
+          <p className="text-base text-black mb-[20px] "data-aos="fade-up">Established in 1995, SM Entertainment has been a trailblazer in the world of entertainment, reshaping the very essence of K-POP and revolutionizing the industry as a whole. We take immense pride in pioneering the comprehensive artist development system, covering casting, training, production, and management, setting the stage for what K-POP is today.Our journey commenced with the ignition of the `&quot;`Korean Wave`&quot;`, propelling K-POP onto the global stage. With our unwavering commitment to excellence, we continue to set pivotal milestone in the entertainment realm, propelling ourselves beyond Asia to emerge as a top global entertainment company.
+          <br/> 
+          </p> 
       </div>
     </div>
     
