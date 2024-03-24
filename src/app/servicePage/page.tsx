@@ -26,8 +26,8 @@ export default function ServicePage() {
 
                 <div className="flex overflow-hidden flex-col lg:flex-row justify-between items-center p-16 bg-[#decaa6]">
 
-                    <div className="w-[20rem]">
-                        <Image className="flex lg:w-[20rem] shadow-lg rounded-lg bg-white hover:scale-75 duration-75" src="/light_nct.jpg" alt="sijeuni" width={600} height={600} ></Image>
+                    <div className="w-[20rem] ">
+                        <Image className="flex lg:w-[20rem] shadow-lg rounded-lg bg-white  hover:scale-75 duration-75 max-sm:hidden" src="/light_nct.jpg" alt="sijeuni" width={600} height={600} ></Image>
                     </div>
 
                     <div className="text-black font-figtree  ">
@@ -67,23 +67,6 @@ export default function ServicePage() {
                 </div>
                 </div>
 
-                {/* <div className="overflow-hidden object-cover w-full bg-repeat-y relative h-screen justify-between min-h-screen bg-[#d9c7a7]  ">
-                    <div className=" pl-[5%] sm:pr-[30%] md:pr-[20%] text-end text-7xl translate-y-[10rem] md:w-8 lg:w-32 font-figtree text-black line-height-1428 font-weight-400 mt-40">
-                        <div className="flex object-cover w-[40rem] items-start mr-[500px] mb-[350px] absolute bottom-0 
-                        sm:-left-[10rem] md:left-[14rem] translate-y-[10rem] border border-red-900">
-                            <Image className="flex md:transform" src="/light_nct.jpg" alt="sijeuni" width={400} height={400} data-aos="flip-left"></Image>
-                        </div>
-                        <div>
-                            <h1 className="flex pl-2 sm:pl-8 flex-wrap" >
-                                NCT
-                            </h1>
-                            <p className="flex text-xs text-black pl-[10%]">You can't forget the distinctive impression of the iconic green color. This unforgettable atmosphere is why the box shape and green color were chosen.
-                            and usually sijeuni call it a green meadow</p>
-
-                        </div>
-                    </div>                    
-                </div> */}
-
         {/*===================== A E S P A ============================= */}
 
                 <div className="flex overflow-hidden flex-col lg:flex-row justify-between items-center p-16 bg-[#dbc397]">
@@ -94,7 +77,7 @@ export default function ServicePage() {
                         <p className="flex mr-[30px] px-[10%] text-black ">The shape of the aespa lightstick is very simple, dominantly white, starting from the handle to the aespa logo at the top. And the top is a ball like a snowball. While on the bottom side there is also an aespa logo.</p>
                         
                     </div>
-                    <div className="w-[20rem] mr-[30px] shadow-lg rounded-lg bg-white hover:scale-75 duration-75">
+                    <div className="w-[20rem] mr-[30px] shadow-lg rounded-lg bg-white hover:scale-75 duration-75 max-sm:hidden">
                         <Image className="flex lg:w-[20rem]" src="/light_aespa.jpg" alt="naevis" width={600} height={600}></Image>
                     </div>
             {/* The button to open modal */}
@@ -126,28 +109,11 @@ export default function ServicePage() {
             <label className="modal-backdrop" htmlFor="my_modal_7">Close</label>
                 </div>  
                 </div>
-
-                {/* <div className="overflow-hidden flex w-full bg-repeat-y relative h-screen self-center justify-between min-h-screen bg-[#dbc397]  ">
-                    <div className="flex pl-[5%] sm:pr-[30%] md:pr-[20%] flex-col text-start text-7xl translate-y-[10rem] md:w-8 lg:w-32 font-figtree text-black line-height-1428 font-weight-400 mt-40">
-                        <h1 className="flex pl-2 sm:pl-8 flex-wrap">
-                            aespa
-                        </h1>
-                        <p className="flex text-xs text-black pl-[10%]">The shape of the aespa lightstick is very simple, dominantly white, starting from the handle to the aespa logo at the top. And the top is a ball like a snowball. While on the bottom side there is also an aespa logo.</p>
-
-                <div className="flex w-[40rem] justify-end items-end ml-[350px] mb-[350px] absolute bottom-0 
-                sm:-left-[10rem] md:left-[14rem] translate-y-[10rem] border border-red-900">
-                    <Image className="flex md:transform" src="/light_aespa.jpg" alt="naeviz" width={400} height={400}></Image>
-
-                </div>
-
-                    </div>
-                            
-                </div> */}
         {/*===================  E X O  =============================== */}
                 <div className="flex overflow-hidden flex-col lg:flex-row justify-between items-center p-16 bg-[#decaa6]">
 
                     <div className=" w-[20rem]">
-                        <Image className="flex lg:w-[20rem] shadow-lg rounded-lg bg-white hover:scale-75 duration-75" src="/light_exo.jpg" alt="exol" width={600} height={600} ></Image>
+                        <Image className="flex lg:w-[20rem] shadow-lg rounded-lg bg-white hover:scale-75 duration-75 max-sm:hidden" src="/light_exo.jpg" alt="exol" width={600} height={600} ></Image>
                     </div>
 
                     <div className="text-black font-figtree  ">
@@ -199,7 +165,7 @@ export default function ServicePage() {
                     </div>
 
                     <div className=" w-[15rem] mr-[30px] ">
-                        <Image className="flex lg:w-[20rem] shadow-lg rounded-lg bg-white hover:scale-75 duration-75" src="/light_redvelvet.jpg" alt="reveluv" width={600} height={600}></Image>
+                        <Image className="flex lg:w-[20rem] shadow-lg rounded-lg bg-white hover:scale-75 duration-75 max-sm:hidden" src="/light_redvelvet.jpg" alt="reveluv" width={600} height={600}></Image>
                     </div>
             {/* The button to open modal */}
             
@@ -230,25 +196,6 @@ export default function ServicePage() {
             <label className="modal-backdrop" htmlFor="my_modal_7">Close</label>
                 </div>
                 </div>
-
-
-
-        {/* <div className="overflow-hidden flex w-full bg-repeat-y relative h-screen self-center justify-between min-h-screen bg-[#dbc59a] ">
-                    <div className="flex pl-[5%] sm:pr-[30%] md:pr-[20%] flex-col text-start text-7xl translate-y-[10rem] md:w-8 lg:w-32 font-figtree text-black line-height-1428 font-weight-400 mt-40">
-                        <h1 className="flex pl-2 sm:pl-8 flex-wrap">
-                            Red Velvet
-                        </h1>
-                        <p className="flex ml-[30px] text-xs">This light stick has a white handle and a top shaped like a red crown with RV written on it, and will bring a cool impression.</p>
-
-                <div className="flex w-[40rem] justify-end items-end ml-[350px] mb-[350px] absolute bottom-0 
-                sm:-left-[10rem] md:left-[14rem] translate-y-[10rem] border border-red-900">
-                    <Image className="flex md:transform" src="/light_redvelvet.jpg" alt="reveluv" width={400} height={400}></Image>
-
-                </div>
-
-                    </div>
-                            
-                </div> */}
 
         {/* ============================================================ */}
 
