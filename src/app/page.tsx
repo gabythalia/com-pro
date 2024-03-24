@@ -87,7 +87,7 @@ export default function Home() {
 
       {/* PART 4 */}
 
-<div id="#about" className="overflow-hidden flex w-full bg-repeat-y relative self-center justify-between  bg-[#74edb3] ">
+<div id="#about" className="overflow-hidden flex w-full bg-repeat-y relative self-center justify-between  bg-[#e188e3] ">
 
   <div  className="flex pl-[10%] sm:pl-[10%] flex-col text-start md:text-7xl font-figtree text-black mt-5 ">
     <h1 className=" flex flex-wrap sm:pl[10%] mb-7 " data-aos="fade-up">Culture Technology
@@ -100,7 +100,7 @@ export default function Home() {
   
   {/* PART 5 */}
 
-<div id="about" className="overflow-hidden flex w-full bg-repeat-y relative self-center justify-between  bg-[#54c7d1] ">
+<div id="about" className="overflow-hidden flex w-full bg-repeat-y relative self-center justify-between  bg-[#bf88e3] ">
     <div  className="flex pl-[10%] sm:pl-[10%] flex-col text-start md:text-7xl font-figtree text-black mt-5 ">
       <h1 className=" flex flex-wrap sm:pl[10%] mb-7 " data-aos="fade-up">LOCATION</h1>
       <p className="text-base text-black mt-7 "data-aos="fade-up">서울특별시 성동구 왕십리로 83-21 에스엠엔터테인먼트
@@ -112,18 +112,18 @@ export default function Home() {
 {/* ======================================================================= */}
 {/* PART 6 */}
 
-      <footer className="flex justify-between footer p-10 bg-[#09162b] text-base-content">
+      <footer className="flex justify-between shadow-lg footer p-10 bg-[#bcb8fc] ">
   <aside>
         <div className="justify-between
          bottom-0 left-[40rem] hidden md:flex
         sm:-left-[10rem] ml-[15px] mb-[10px]">
-        <Image className="flex transform " src="/main_logo1.png" alt="logooo" width={90} height={80}></Image>
+        <Image className="flex transform " src="/main_logo.png" alt="logooo" width={90} height={80}></Image>
         </div>
       
   </aside> 
-  <h6 className="footer-title">
+  <h6 className="footer-title text-[#141414]">
     <div className="flex justify-center items-center">
-        <p className="pt-[15px]"> © SM ENTERTAINMENT <br/>All Rights Reserved.</p>
+        <p className="pt-[15px] "> © SM ENTERTAINMENT <br/>All Rights Reserved.</p>
       </div></h6>
    
     <div className="grid grid-flow-col gap-4 pt-[15px] ">
