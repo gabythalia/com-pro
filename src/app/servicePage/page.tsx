@@ -16,7 +16,7 @@ export default function ServicePage() {
                         <p className="flex px-[10%] text-black ">Do you want to watch your idol? Do you want to sing while fanchant? <br/> Please scroll down to see a lightstick according to your favorite idol right now!!!</p>  
                     </div>
 
-                    <div className=" w-[20rem] mt-[80px]">
+                    <div className=" w-[20rem] mt-[80px] max-sm:hidden">
                         <Image className="flex lg:w-[20rem] shadow-lg rounded-lg bg-white" src="/light_all.jpg" alt="naevis" width={600} height={600} data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"></Image>
                     </div>
@@ -210,12 +210,12 @@ export default function ServicePage() {
                     </div>
 
         <div className="chat chat-start  font-figtree ">
-                    <div className="chat-bubble bg-[#c7ae32] text-black text-center">
+                    <div className="chat-bubble bg-[#c7ae32] text-black text-center max-sm:hidden">
                     <Image className="flex lgw-[20rem]" src="/testi1.png" alt="testt" width={500} height={500}></Image>
         </div>
                     </div>
         <div className="chat chat-end font-figtree">
-        <div className="chat-bubble bg-[#c7ae32] text-black text-center">
+        <div className="chat-bubble bg-[#c7ae32] text-black text-center max-sm:hidden">
         <Image className="flex lgw-[20rem]" src="/testi2.png" alt="testtt" width={500} height={500}></Image>
         </div>
 
