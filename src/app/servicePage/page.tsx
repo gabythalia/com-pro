@@ -304,7 +304,7 @@ export default function ServicePage() {
         </div>
 
         {/* ================= PART 4 ========================= */}
-        <footer className="flex justify-between shadow-lg footer p-10 bg-[#b39d76] ">
+        <footer className="flex justify-between shadow-lg footer p-10 bg-[#ebd8b7] ">
         <aside>
                 <div className="justify-between
                 bottom-0 left-[40rem] hidden md:flex
