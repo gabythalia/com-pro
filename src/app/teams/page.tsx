@@ -16,17 +16,17 @@ export default async function Team() {
 
         return (
         <div>
-            <div className="flex overflow-hidden flex-col lg:flex-row justify-between items-center p-16 bg-[#eb609c]">
-                    <div className="text-[#f2cbdc] font-figtree" data-aos="fade-up" 
+            <div className="flex overflow-hidden flex-col lg:flex-row justify-between items-center p-16 bg-[#f5c1e5]">
+                    <div className="text-black font-figtree" data-aos="fade-up" 
             data-aos-anchor-placement="bottom-bottom">
                         <h1 className="flex-wrap md:text-left justify-center pr-[150px] lg:flex-row text-[50px] md:text-7xl mt-[40px] px-[10%]" >
                         Meet the Team !
                         </h1>
-                        <p className="flex px-[10%] text-[#f2cbdc] "> This is the team that has been working with our company<br/> </p>  
+                        <p className="flex px-[10%] text-black "> This is the team that has been working with our company<br/> </p>  
                     </div>    
             </div>
 
-            <div className="flex flex-col justify-center items-center max-sm:w-full bg-[#eb609c]">
+            <div className="flex flex-col justify-center items-center max-sm:w-full bg-[#f5c1e5]">
             {member.results.map((users : any) => {
                         return (
                     <div key={users.id.value} className="flex justify-center sm:justify-start items-center bg-[#de2a78] text-black font-figtree rounded 3xl max-sm:py-2 my-5 gap-5 sm:gap-10 max-sm:max-w-[300px] max-sm:w-full sm:w-[500px] overflow-hidden">
